@@ -21,6 +21,7 @@ let num2 = 32;
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
 
   - Using prompt accept the name of the user and store it a variable names `userName`
+
   - Using prompt accept the profession of the user and store it a variable names`userProfession`
   - Using confirm check if user is adult or not and store the value in `isAdult`
   - Alert message `I am [userName] a [userProfession]`
@@ -32,6 +33,12 @@ let num2 = 32;
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
 */
+const userName = prompt("Name of the user")
+const userProfession = prompt("Profession of the user")
+const isAdult = confirm('Are you an adullt')
+
+alert(`I am ${userName} a ${userProfession}`)
+console.log(`I am ${userName} a ${userProfession}`)
 
 /*
 . Addition using prompt
