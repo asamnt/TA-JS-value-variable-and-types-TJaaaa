@@ -44,9 +44,10 @@ console.log(`I am ${userName} a ${userProfession}`)
 . Addition using prompt
 
   - Accept two number values form user and store them in `numA` and`numB`.
-  - Alert the sum of both numbers. [numA + numB]
+- Alert the sum of both numbers. [numA + numB]
   - Alert [numA - numB]
   - Alert [numA * numB]
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
+
 */
